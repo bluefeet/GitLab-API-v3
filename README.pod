@@ -2,7 +2,7 @@
 
 =head1 NAME
 
-GitLab::API::v3 - A complete GitLab API v3 client.
+GitLab::API::v3 - A complete GitLab API v3 client. (deprecated)
 
 =head1 SYNOPSIS
 
@@ -14,6 +14,11 @@ GitLab::API::v3 - A complete GitLab API v3 client.
     );
     
     my $branches = $api->branches( $project_id );
+
+=head2 DEPRECATED
+
+This module is at the end of it's life as the latest GitLab no longer supports
+the v3 API.  Instead, use L<GitLab::API::v4>.
 
 =head1 DESCRIPTION
 
