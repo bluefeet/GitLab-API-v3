@@ -2,6 +2,8 @@ Revision history for Perl extension GitLab::API::v3.
 
 {{$NEXT}}
 
+1.01 2017-12-09
+
  - Add a very simple retries argument for retrying a request when a 5xx response is
    received. @jjatria
  - Support user snippets. @d5ve
