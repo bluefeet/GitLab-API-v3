@@ -2,7 +2,7 @@ package GitLab::API::v3;
 
 =head1 NAME
 
-GitLab::API::v3 - A complete GitLab API v3 client. (deprecated)
+GitLab::API::v3 - A complete GitLab API v3 client. (DEPRECATED)
 
 =head1 SYNOPSIS
 
