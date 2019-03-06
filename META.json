@@ -1,0 +1,94 @@
+{
+   "abstract" : "A complete GitLab API v3 client. (DEPRECATED)",
+   "author" : [
+      "Aran Clary Deltac <bluefeet@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Minilla/v3.1.4, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "GitLab-API-v3",
+   "no_index" : {
+      "directory" : [
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "author",
+         "builder"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "Module::Build::Tiny" : "0.035"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "Test::MinimumVersion::Fast" : "0.04",
+            "Test::PAUSE::Permissions" : "0.04",
+            "Test::Pod" : "1.41",
+            "Test::Spellunker" : "v0.2.7"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Const::Fast" : "0",
+            "Data::Serializer" : "0",
+            "Getopt::Long" : "0",
+            "Log::Any" : "0.11",
+            "Log::Any::Adapter" : "0",
+            "Log::Any::Adapter::Screen" : "0",
+            "Moo" : "1.006",
+            "Pod::Usage" : "0",
+            "Role::REST::Client" : "0.2",
+            "Try::Tiny" : "0",
+            "Type::Tiny" : "1",
+            "URI::Escape" : "0",
+            "YAML" : "0",
+            "namespace::clean" : "0",
+            "strictures" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Log::Any::Adapter::TAP" : "v0.2.0",
+            "Test::Simple" : "0.94"
+         }
+      }
+   },
+   "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/bluefeet/GitLab-API-v3/issues"
+      },
+      "homepage" : "https://github.com/bluefeet/GitLab-API-v3",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/bluefeet/GitLab-API-v3.git",
+         "web" : "https://github.com/bluefeet/GitLab-API-v3"
+      }
+   },
+   "version" : "1.04",
+   "x_authority" : "cpan:BLUEFEET",
+   "x_contributors" : [
+      "Dave Webb <github@d5ve.com>",
+      "Dotan Dimet <dotan@corky.net>",
+      "José Joaquín Atria <jjatria@gmail.com>",
+      "Marek R. Sotola <Marek.R.Sotola@nasa.gov>",
+      "Nigel Gregoire <nigelgregoire@gmail.com>",
+      "trunov-ms <trunov.ms@gmail.com>"
+   ],
+   "x_deprecated" : 1,
+   "x_serialization_backend" : "JSON::PP version 2.97001",
+   "x_static_install" : 0
+}
