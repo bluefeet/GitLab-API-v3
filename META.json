@@ -78,7 +78,7 @@
          "web" : "https://github.com/bluefeet/GitLab-API-v3"
       }
    },
-   "version" : "1.04",
+   "version" : "1.05",
    "x_authority" : "cpan:BLUEFEET",
    "x_contributors" : [
       "Dave Webb <github@d5ve.com>",
@@ -90,5 +90,5 @@
    ],
    "x_deprecated" : 1,
    "x_serialization_backend" : "JSON::PP version 2.97001",
-   "x_static_install" : 0
+   "x_static_install" : 1
 }
